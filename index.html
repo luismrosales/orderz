@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/login.css" />
+    <title>Orderz</title>
+  </head>
+  <body>
+    <h1>Orderz</h1>
+    <div class="form">
+      <label for="name">Name:</label>
+      <br />
+      <input id="names" required type="text" id="name" />
+      <br />
+      <label for="lastname">Last name:</label>
+      <br />
+      <input id="lastName" required type="text" id="lastname" />
+      <br />
+      <label for="party">Party size:</label>
+      <br />
+      <input id="party" required type="number" id="party" />
+      <br />
+      <label for="table">Table number:</label>
+      <br />
+      <input id="table" required type="number" value="" />
+      <br />
+      <button onclick="myFunction()" type="">
+        <!-- <a href="./landing-page.html">Submit</a> -->
+        Submit
+      </button>
+    </div>
+
+    <div class="pl">
+      <p>Table number</p>
+      <p id="tnumber">""</p>
+      <p>has been checked in</p>
+    </div>
+    <script src="../server.js"></script>
+  </body>
+</html>
